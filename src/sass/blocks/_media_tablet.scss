@@ -1,0 +1,71 @@
+@media screen and (max-width: 1023px) {
+    .container {
+        max-width: 720px;
+    }
+    .title {
+        &_left {
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+    .button {
+        &_form {
+            width: 385px;
+        }
+        &_modal {
+            width: 303px;
+        }
+    }
+    .form {
+        width: 385px;
+        &_modal {
+            width: 300px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+            margin-top: 70px;
+        }
+        &__icons {
+            margin-top: 50px;
+        }
+    }
+    .advantages {
+        &__item {
+            max-width: 220px;
+        }
+    }
+    .consultation {
+        padding-top: 80px;
+        &__text {
+            margin-top: 10px;
+        }
+    }
+    .carousel {
+        &__slider {
+            position: relative;
+            width: 80%;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 210px;
+        }
+        &__items {
+            justify-content: center;
+        }
+        &-item {
+            margin: 0 10px 20px 10px;
+        }
+    }
+    .clients {
+        &__text {
+            max-width: 500px;
+        }
+    }
+}

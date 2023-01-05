@@ -1,0 +1,29 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 108px 0;
+    background: url("../img/bg/consultation_bg.jpg") center (center/cover) no-repeat;
+    &__text {
+        margin-top: 8px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .error {
+        border: 1px solid $main-color;
+        box-shadow: 1px 1px 5px $main-color;
+    }
+    .valid {
+        border: 1px solid green;
+        box-shadow: 1px 1px 5px green;
+    }
+    label.error {
+        border: none;
+        margin-top: -5px;
+        margin-bottom: 15px;
+        box-shadow: none;
+        color: #FFFFFF;
+        line-height: 16px;
+        text-align: center;
+    }
+}
